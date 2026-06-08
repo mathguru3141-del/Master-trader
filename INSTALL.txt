@@ -1,0 +1,25 @@
+Master Quartermaster - Bedrock Addon
+====================================
+
+INSTALLATION:
+1. Download both folders: Master_Quartermaster_BP and Master_Quartermaster_RP
+2. Move them to your Bedrock Add-ons folder:
+   - Windows: %appdata%\.minecraft\development_behavior_packs\ and development_resource_packs\
+   - Console: Add through marketplace
+3. Enable in world settings
+4. Summon with: /summon mq:master_quartermaster
+
+FEATURES:
+- 22 Complete Trades
+- All items fully enchanted (Level 30)
+- Each trade = 27 stacks in a shulker box
+- Works as Village Nitwit
+
+TRADES:
+Combat (7): Bows, Crossbows, Netherite Swords, Axes, Tridents, Maces, Shields
+Tools (4): Pickaxes, Shovels, Hoes, Flint and Steel
+Armor (5): Helmets, Chestplates, Leggings, Boots, Elytras
+Consumables (6): Fireworks, Enchanted Golden Apples, Golden Apples, Golden Carrots, XP Bottles, Ender Pearls
+
+VERSION: 1.0.0
+MINECRAFT: 1.20.0+

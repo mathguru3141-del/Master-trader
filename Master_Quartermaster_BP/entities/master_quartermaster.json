@@ -1,0 +1,70 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mq:master_quartermaster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["villager", "npc"]
+      },
+      "minecraft:health": {
+        "value": 20
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "default_name": "Master Quartermaster"
+      },
+      "minecraft:variant": {
+        "value": 0
+      },
+      "minecraft:mark_variant": {
+        "value": 1
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.95
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:navigation": {
+        "can_path_over_water": true
+      },
+      "minecraft:behavior.sleep": {
+        "priority": 0,
+        "goal_radius": 1.5,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 2,
+        "speed_multiplier": 2.0
+      },
+      "minecraft:behavior.stroll_towards_village": {
+        "priority": 4,
+        "speed_multiplier": 0.6,
+        "goal_radius": 2.5
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.idle": {
+        "priority": 7,
+        "priority_cooldown": 0.5
+      },
+      "minecraft:trade_table": {
+        "display_name": "Master Quartermaster",
+        "table": "loot_tables/entities/master_quartermaster_trades.json"
+      }
+    }
+  }
+}
